@@ -1,0 +1,19 @@
+{
+  "name": "api-graphql2",
+  "version": "1.0.0",
+  "description": "Outra forma de se criar uma api com GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Danilo Aparecido",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "graphql": "^16.8.1"
+  }
+}
